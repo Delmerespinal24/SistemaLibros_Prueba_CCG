@@ -10,9 +10,4 @@ CREATE TABLE BOOK ( -- creando la tabla BOOK.
     AVAILABLE bit(1) default b'1'
 );
 
-/*
-INSERT INTO BOOK(TITLE, DESCRIPTION, STOCK, SALEPRICE)
-	VALUES('El Principito', 'Habia una vez', 100, 20.50);
-
 SELECT * FROM BOOK;
-*/
